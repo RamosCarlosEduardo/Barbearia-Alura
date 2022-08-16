@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Barbearia da Alura</title>
+	<link rel="stylesheet" type="text/css" href=".\CSS\reset.css">
+	<link rel="stylesheet" type="text/css" href=".\CSS\style.css">
+	<link rel="stylesheet" type="text/css" href=".\CSS\contato.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="cabecalho">
+			<h1><a href="index.html"><img title="logo barbearia alura" src=".\images\logo.png" alt="Logo Barbearia Alura"></a></h1>
+			<nav>
+				<ul>
+				<li><a href="index.html">&#127968; Home</a></li>
+				<li><a href="produtos.html">&#128188; Produtos</a></li>
+				<li><a href="contato.html">&#128222; Contato</a></li>
+				</ul>
+			</nav>
+			<div class="hamburguer-icon-abrir" id="hamburguer-icon-abrir">
+			</div>
+			<nav class="hamburguer-menu">
+				<ul>
+				<li><a href="index.html">&#127968; Home</a></li>
+				<li><a href="produtos.html">&#128188; Produtos</a></li>
+				<li><a href="contato.html">&#128222; Contato</a></li>
+				</ul>
+				<div class="hamburguer-icon-fechar" id="hamburguer-icon-fechar">
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+
+		<section class="contato">
+			<form action="#" method="POST" target="_blank" autocomplete="on">
+				<label for="nome">Nome:</label>
+  				<input type="text" id="nome" name="nome" maxlength="40" required>
+				
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" placeholder="email@dominio.com.br" maxlength="40" required>
+				
+				<label for="telefone">Celular:</label>
+				<input type="tel" id="telefone" class="celphone_with_ddd" name="telefone" required>
+
+				<fieldset class="set-textarea">
+				<label for="mensagem">Mensagem</label>
+				<textarea id="mensagem" name="mensagem" maxlength="400" placeholder="Insira sua mensagem aqui." required></textarea>
+				<p id="contador-de-caracteres">Caracteres restantes: 400</p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Como prefere nosso contato?</legend>
+					<label class="preferencia" for="opEmail">
+						<input type="radio" name="preferencia" id="opEmail" value="opEmail">E-mail
+					</label>
+					<label class="preferencia" for="opLigacao">
+						<input type="radio" name="preferencia" id="opLigacao" value="opLigacao" >Ligação
+					</label>
+					<label class="preferencia" for="opWhatsapp">
+						<input type="radio" name="preferencia" id="opWhatsapp" value="opWhatsapp" checked>Whatsapp
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select required>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label>
+					<input type="checkbox" name="novidades" checked>
+					Gostaria de receber nossas novidades por e-mail?
+				</label>
+				
+				<input type="submit" value="Enviar formulário" class="enviar">
+				
+				<table>
+					<thead>
+						<tr>
+							<th>Dia</th>
+							<th>Horário</th>
+						</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8~20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8~20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8~20h</td>
+					</tr>
+					</tbody>
+				</table>		
+			</form>
+		</section>
+	</main>
+	<footer>
+		<div class="rodape">
+			<img src=".\images\logo-branco.png" alt="logo barbearia alura">
+			<p class="texto-centralizado">	&copy; Copyright Barbearia Alura - 2022</p>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/menu.js"></script>
+
+</body>
+</html>

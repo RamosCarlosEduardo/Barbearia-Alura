@@ -1,0 +1,400 @@
+/* |||||||||||| inicio menu cabecalho ||||||||||||| */
+html {
+	font-family: 'Roboto Slab', serif;	
+	font-size: 62.5%;
+	min-width: 540px;
+}
+
+header {
+	background-image: url('../images/bg-white.jpg');
+	padding: 0;
+	text-align: center;
+	border-bottom: ridge 2rem darkblue;
+}
+.hamburguer-icon-abrir {
+	display: none;
+	visibility: hidden;
+}
+
+.hamburguer-menu {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: -100vw;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url('../images/bg-white.jpg');
+	transition: margin 1.5s linear, transform 0.5s linear;
+}
+.hamburguer-menu li {
+	display: block;
+	margin: 2rem 0;
+}
+
+.hamburguer-icon-fechar {
+	background: red;
+	background-image: url('../images/botao-fechar.png');
+	background-size: 100%;
+	background-position: center;
+	width: 5rem;
+	height: 5rem;
+	border: solid darkblue 0.2rem;
+	border-radius: 100%;
+	box-shadow: 2px 2px 5px darkgray;
+	position: absolute;
+	left: 2rem;
+	top: 2rem;
+
+}
+.hamburguer-icon-fechar:hover {
+	border-color: red;
+}
+
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	width: 70%;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cabecalho h1{
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 0 0 1.5rem;
+}
+
+
+nav a{
+	padding: 1rem;
+	text-decoration-line: none;
+	color: #00008B;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2rem;
+	transition: 0.2s all;
+	display: inline-block;
+	width: 14rem;
+}
+
+nav a:hover{
+	transform: scale(1.1);
+	text-underline-position: under;
+	text-decoration: underline;
+}
+
+nav a:active{
+	border-color: #FF0000;
+}
+
+body {
+	background: linear-gradient(to right, aliceblue 0%, whitesmoke 15% 85%, aliceblue 100%);
+}
+
+
+h1 {
+	color: #00008B;
+	font-weight: bolder;
+	font-size: 3rem;
+	line-height: 1.5;
+	text-decoration: underline;
+	margin: 0 0 1rem;
+}
+
+h2 {
+	color: #00008B;
+	font-weight: bolder;
+	font-size: 2.8rem;
+	line-height: 1.5;
+	text-decoration: underline;
+	margin: 0 0 1rem;
+}
+
+h3 {
+	color: #00008B;
+	font-weight: bolder;
+	font-size: 2.5rem;
+	line-height: 1.5;
+	text-decoration: underline;
+	margin: 0 0 1rem;
+}
+
+p {
+	text-indent: 1.5em;
+	font-size: 2rem;
+	line-height: 1.5;
+	margin-top: 1.5rem;
+	text-align: justify;
+}
+strong {
+	font-weight: bolder;
+}
+
+.texto-centralizado {
+	text-align: center;
+}
+
+.corpo-do-site {
+	width: 70%;
+	margin: 0 auto;
+}
+.main {
+	display: block;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 3rem;
+	border-bottom: ridge 0.2rem darkblue;
+}
+
+.main-banner {
+	background-image: url("../images/banner.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 40vh;
+	width: 100%;
+	min-height: 30rem;
+	margin: 10px 0;
+	opacity: 0.9;
+	padding: 0;
+
+}
+
+
+.utensilios-banner {
+	width: 12rem;
+	float: left;
+	margin: 0 2rem 0 0;
+	opacity: 0.8;
+}
+
+.clear-paragrafo {
+	clear: none;
+}
+
+.missao {
+	font-style: italic;
+	text-align: center;
+	color: black;
+}
+
+.beneficios {
+	border-top: ridge 0.2rem darkblue;
+	border-bottom: ridge 0.2rem darkblue;
+	padding: 3rem;
+	text-align: center;
+	margin: 0 auto;
+}
+.container-beneficios{
+	border: solid darkblue 0.1rem;
+	border-radius: 1rem;
+	display: flex;
+	background: white;
+	vertical-align: middle;
+}
+
+.beneficios ul {
+	padding: 2rem;
+	margin: auto 0;
+	list-style: none;
+	font-size: 3rem;
+	width: 50%;
+	list-style-position: inside;
+}
+.beneficios ul li {
+	text-align: left;
+}
+
+.beneficios-banner{
+	width: 50%;
+	opacity: 0.8;
+	transition: 0.5s all;
+}
+
+.beneficios-banner:hover{
+	opacity: 1;
+}
+
+.mapa {
+	padding: 3rem;
+	margin: 0 auto;
+	border-bottom: ridge 0.2rem darkblue;
+}
+.mapa p {
+	text-align: center;
+	text-indent: 0;
+}
+
+.mapa iframe{
+	padding: 0;
+	width: 100%;
+	height: 45rem;
+	border: solid darkblue 0.1rem;
+	border-radius: 1rem;
+	margin: 2rem 0 2rem 0;
+}
+.video {
+	padding: 3rem;
+	margin: 0 auto;
+}
+.video iframe {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/* |||||||||||| inicio footer ||||||||||||| */
+footer {
+	background: url("../images/bg.jpg");
+	box-sizing: border-box;
+	height: 28.5rem;
+	margin-top: 2rem;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding: 0.5rem;
+}
+footer p {
+	font-size: 1.2rem;
+	text-indent: 0;
+	line-height: 0;
+	margin: 0 auto;
+}
+
+
+/* |||||||||||| fim footer ||||||||||||| */
+
+@media screen and (max-width: 768px){
+	.cabecalho {
+		display: flex;
+		width: 90%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.hamburguer-icon-abrir {
+		display: block;
+		visibility: visible;
+		width: 5rem;
+		height: 5rem;
+		border: solid darkblue; 0.2rem;
+		border-radius: 100%;
+		background: lightgreen;
+		background-image: url('../images/menu-burguer.png');
+		background-repeat: no-repeat;
+		background-size: 70%;
+		background-position: center;
+		box-shadow: 2px 2px 5px darkgray;
+		position: absolute;
+		left: 2rem;
+		top: 2rem;
+	}
+	.hamburguer-icon-abrir:hover {
+		border-color: green;
+	}
+
+	
+	body {
+		background: linear-gradient(to left, aliceblue 0%, whitesmoke 10% 90%, aliceblue 100%);
+	}
+	.corpo-do-site {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.utensilios-banner {
+		width: 15rem;
+		margin: 0;
+	}
+	.container-beneficios{
+		flex-direction: column;
+		align-items: center;
+	}
+	.beneficios ul {
+		box-sizing: border-box;
+		font-size: 2.5rem;
+		width: 100%;
+		margin: 1.5rem;
+	}
+	.beneficios-banner{
+		width: 100%;
+	}
+	.mapa p {
+		text-align: center;
+	}
+	.video	iframe {
+		transform: scaleY(0.8);
+	}
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1240px){
+	.cabecalho {
+		display: flex;
+		width: 70%;
+		padding: 0 5rem;
+		justify-content: space-between;
+		align-items: center;
+	}
+	nav {
+		width: fit-content;
+	}
+	nav li {
+		display: block;
+		margin: 1.5rem 0 0 0;
+	}
+	
+	.main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.utensilios-banner {
+		width: 20rem;
+		margin: 0;
+	}
+
+	.clear-paragrafo {
+		clear: left;
+	}
+	.main p {
+		margin-top: 1.5rem;
+	}
+	
+	.container-beneficios{
+		flex-direction: column;
+		align-items: center;
+	}
+	.beneficios ul {
+	box-sizing: border-box;
+	padding: 2rem;
+	margin: 0 auto;
+	width: 100%;
+	}
+	.beneficios-banner{
+		width: 70%;
+		height: 35rem;
+	}
+	.video	iframe {
+		transform: scaleY(0.9);
+	}
+}

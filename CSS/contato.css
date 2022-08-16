@@ -1,0 +1,107 @@
+.contato {
+	margin: 2rem auto;
+	max-width: 70%;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	accent-color:  #00008B;
+}
+
+form * {
+	box-sizing: border-box;
+	font-size: 2rem;
+}
+form *:not([type="radio"], [type="checkbox"], :first-child) {
+	margin: 2rem 0 0;
+}
+
+form input[type="radio"], input[type="checkbox"]{
+	margin-right: 0,5rem;
+}
+
+form input, textarea {
+	border: solid 0.1rem #00008B;
+	padding: 1rem;
+	outline: none;
+}
+
+form input:focus:not([type="radio"], [type="checkbox"]), textarea:focus {
+	/*background: whitesmoke;*/
+	/*background: radial-gradient(white 0% 60%,whitesmoke 100%);*/
+	border: solid 0.1rem #00008B;
+	font-weight: bold;
+	box-shadow: inset 0 0 0.8rem darkgray, 0 0 1rem lightblue;
+}
+
+.contato label, p, legend {
+	display: block;
+	font-weight: bold;
+	width: fit-content;
+}
+
+textarea {
+	height: 20rem;
+	resize: none;
+	width: 100%;
+}
+
+.set-textarea{
+	position: relative;
+	width: 100%;
+}
+
+#contador-de-caracteres {
+	font-size: 1.8rem;
+	color: #00008B;
+	position: absolute;
+	bottom: 0;
+	right: 0.5rem;
+}
+
+.contato .preferencia {
+	font-weight: initial;
+	margin-top: 0.5rem;
+}
+
+
+.enviar {
+	align-self: center;
+	background: whitesmoke;
+	border: solid 0.3rem #00008B99;
+	border-radius: 1rem;
+	padding: 1rem;
+	color: #00008BBB;
+	font-weight: bold;
+	cursor: pointer;
+	width: 25rem;
+	height: 6rem;
+}
+
+.enviar:hover {
+	color: #00008B;
+	background: white;
+	border: solid 0.3rem #00008B;
+}
+
+.enviar:active{
+	border-color: #FF0000;
+}
+
+.contato table {
+	align-self: center;
+	text-align: center;
+	font-size: 2rem;
+	transform: scaleX(1.2);
+}
+thead {
+	font-weight: bold;
+	color: #00008B;
+	background: aliceblue;
+}
+td, th{
+	background: white;
+	border: solid 0.1rem #00008B;
+	padding: 0.5rem;
+	margin: 0;
+}
