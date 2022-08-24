@@ -1,31 +1,4 @@
-function abrirMenu() {
-	window.scrollTo(0, 0)
-	let menu = document.querySelector('.hamburguer-menu');
-	menu.style.zIndex = "1";
-	menu.style.transform = "translate(100%, 0)"
-	
-	document.body.style.overflow = "hidden";
-}
-
-function fecharMenu() {
-	let menu = document.querySelector('.hamburguer-menu');
-	// menu.style.z-index = "0"
-	menu.style.transform = "translate(-100%, 0)";
-	document.body.style.overflow = "scroll";
-}
-
-function addEvento() {
-var botaoAbrirMenu = document.getElementById('hamburguer-icon-abrir')	
-botaoAbrirMenu.addEventListener("click", abrirMenu);
-
-var botaoFecharMenu = document.getElementById('hamburguer-icon-fechar')
-botaoFecharMenu.addEventListener("click", fecharMenu);
-}
-
-setInterval(addEvento, 1000)
-
-
-
+// máscaras formulário da página produto.html
 // documentation jQueryMask: https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html#public-methods
 $(document).ready(function(){
   $('.date').mask('00/00/0000');
