@@ -2,7 +2,7 @@
 html {
 	font-family: 'Roboto Slab', serif;	
 	font-size: 62.5%;
-	min-width: 480px;
+	min-width: 380px;
 }
 
 header {
@@ -274,6 +274,9 @@ footer p {
 /* |||||||||||| fim footer ||||||||||||| */
 
 @media screen and (max-width: 768px){
+	:root {
+		font-size: 50%;
+	}
 	.cabecalho {
 		display: flex;
 		width: 90%;
