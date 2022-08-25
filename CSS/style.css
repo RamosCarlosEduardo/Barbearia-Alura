@@ -142,15 +142,20 @@ strong {
 	text-align: center;
 }
 
-.corpo-do-site {
-	width: 70%;
+
+section {
+	padding: 3rem 15%;
 	margin: 0 auto;
 }
+/*.corpo-do-site {
+	width: 70%;
+	margin: 0 auto;
+}*/
 .main {
 	display: block;
 	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 3rem;
+	/*padding: 3rem;*/
 	border-bottom: ridge 0.2rem darkblue;
 }
 
@@ -190,9 +195,9 @@ strong {
 .beneficios {
 	border-top: ridge 0.2rem darkblue;
 	border-bottom: ridge 0.2rem darkblue;
-	padding: 3rem;
-	text-align: center;
-	margin: 0 auto;
+	/*padding: 3rem;*/
+	/*margin: 0 auto;*/
+	text-align: center;	
 }
 .container-beneficios{
 	border: solid darkblue 0.1rem;
@@ -225,8 +230,8 @@ strong {
 }
 
 .mapa {
-	padding: 3rem;
-	margin: 0 auto;
+	/*padding: 3rem;*/
+	/*margin: 0 auto;*/
 	border-bottom: ridge 0.2rem darkblue;
 }
 .mapa p {
@@ -242,10 +247,10 @@ strong {
 	border-radius: 1rem;
 	margin: 2rem 0 2rem 0;
 }
-.video {
+/*.video {
 	padding: 3rem;
 	margin: 0 auto;
-}
+}*/
 .video iframe {
 	max-width: 80%;
 	margin: 0 auto;
@@ -313,10 +318,15 @@ footer p {
 	body {
 		background: linear-gradient(to left, aliceblue 0%, whitesmoke 10% 90%, aliceblue 100%);
 	}
-	.corpo-do-site {
+
+	/*#######ARRUMAR O PADDIN DA SEÇÃO - VER SE TEM COMO NAO SETAR UM VALOR PELO SHORTHAND#########*/
+	section {
+		padding: unset 0;
+	}
+/*	.corpo-do-site {
 		width: 100%;
 		margin: 0 auto;
-	}
+	}*/
 
 	.main {
 		display: flex;
@@ -327,14 +337,14 @@ footer p {
 		display: none;
 	}
 	.utensilios-banner {
-		width: 15rem;
+		width: 15rem; /* ###### VER ESSA PARTE ###### */
 		margin: 0;
 	}
 	.container-beneficios{
 		flex-direction: column;
 		align-items: center;
-		max-width: 80%;
-		margin: 0 auto;
+		/*max-width: 80%;*/
+		/*margin: 0 auto;*/
 	}
 	.beneficios ul {
 		box-sizing: border-box;
@@ -351,8 +361,9 @@ footer p {
 	.video	iframe {
 		transform: scaleY(0.8);
 	}
-
-
+	.mapa iframe {
+		max-width: 80%;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1240px){
