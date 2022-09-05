@@ -1,24 +1,20 @@
 // script menu
-const botaoAbrirMenu = document.getElementById('hamburguer-icon-abrir') 
-botaoAbrirMenu.addEventListener("click", abrirMenu);
+const botaoAbrirMenu = document.getElementById('hamburguer-icon-abrir')
+const menu = document.querySelector('.hamburguer-menu');
+
+botaoAbrirMenu.addEventListener("click",  () => {
+	window.scrollTo(0, 0)
+	menu.style.left = "0"
+		document.body.style.overflow = "hidden";
+});
 
 const botaoFecharMenu = document.getElementById('hamburguer-icon-fechar')
-botaoFecharMenu.addEventListener("click", fecharMenu);
-
-function abrirMenu() {
+botaoFecharMenu.addEventListener("click", () => {
 	window.scrollTo(0, 0)
-	const menu = document.querySelector('.hamburguer-menu');
-	menu.style.zIndex = "1";
-	menu.style.transform = "translate(100%, 0)"
-	
-	document.body.style.overflow = "hidden";
-}
+	menu.style.left = "-100vw"
+		document.body.style.overflow = "scroll";
 
-function fecharMenu() {
-	const menu = document.querySelector('.hamburguer-menu');
-	menu.style.transform = "translate(-100%, 0)";
-	document.body.style.overflow = "scroll";
-}
+});
 
 
 // script botões sem funcionalidade

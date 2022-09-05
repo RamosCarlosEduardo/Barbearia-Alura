@@ -1,4 +1,3 @@
-/* |||||||||||| inicio menu cabecalho ||||||||||||| */
 html {
 	font-family: 'Roboto Slab', serif;	
 	font-size: 62.5%;
@@ -17,17 +16,19 @@ header {
 }
 
 .hamburguer-menu {
-	height: 100vh;
-	width: 100vw;
-	display: flex;
+	height: 90vh;
+	width: 50vw;
+	border: solid darkblue 0.1rem;;
 	position: absolute;
 	top: 0;
 	left: -100vw;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	background-image: url('../images/bg-white.jpg');
-	transition: margin 1.5s linear, transform 0.5s linear;
+	z-index: 10;
+	transition: margin 1.5s linear, left 0.5s linear;
 }
 .hamburguer-menu li {
 	display: block;
@@ -127,6 +128,7 @@ h3 {
 	margin: 0 0 1rem;
 }
 
+
 p {
 	text-indent: 1.5em;
 	font-size: 2rem;
@@ -138,25 +140,19 @@ strong {
 	font-weight: bolder;
 }
 
-.texto-centralizado {
-	text-align: center;
-}
-
-
 section {
 	padding: 3rem 15%;
 	margin: 0 auto;
 }
-/*.corpo-do-site {
-	width: 70%;
-	margin: 0 auto;
-}*/
-.main {
+
+.sobre {
 	display: block;
 	box-sizing: border-box;
 	margin: 0 auto;
-	/*padding: 3rem;*/
 	border-bottom: ridge 0.2rem darkblue;
+}
+.sobre h1 {
+	text-align: center;
 }
 
 .main-banner {
@@ -195,9 +191,6 @@ section {
 .beneficios {
 	border-top: ridge 0.2rem darkblue;
 	border-bottom: ridge 0.2rem darkblue;
-	/*padding: 3rem;*/
-	/*margin: 0 auto;*/
-	text-align: center;	
 }
 .container-beneficios{
 	border: solid darkblue 0.1rem;
@@ -230,12 +223,9 @@ section {
 }
 
 .mapa {
-	/*padding: 3rem;*/
-	/*margin: 0 auto;*/
 	border-bottom: ridge 0.2rem darkblue;
 }
 .mapa p {
-	text-align: center;
 	text-indent: 0;
 }
 
@@ -245,38 +235,39 @@ section {
 	height: 45rem;
 	border: solid darkblue 0.1rem;
 	border-radius: 1rem;
-	margin: 2rem 0 2rem 0;
+	margin: 2rem 0;
 }
-/*.video {
-	padding: 3rem;
-	margin: 0 auto;
-}*/
+
 .video iframe {
 	max-width: 80%;
 	margin: 0 auto;
 }
 
-/* |||||||||||| inicio footer ||||||||||||| */
+.mapa, .video, .beneficios, footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 footer {
 	background: url("../images/bg.jpg");
 	box-sizing: border-box;
 	height: 28.5rem;
 	margin-top: 2rem;
 	width: 100%;
-	text-align: center;
 	color: white;
 	font-weight: bold;
 	padding: 0.5rem;
+}
+footer img {
+	width: 15rem;
 }
 footer p {
 	font-size: 1.2rem;
 	text-indent: 0;
 	line-height: 0;
-	margin: 0 auto;
+	
 }
-
-
-/* |||||||||||| fim footer ||||||||||||| */
 
 @media screen and (max-width: 768px){
 	:root {
@@ -319,16 +310,12 @@ footer p {
 		background: linear-gradient(to left, aliceblue 0%, whitesmoke 10% 90%, aliceblue 100%);
 	}
 
-	/*#######ARRUMAR O PADDIN DA SEÇÃO - VER SE TEM COMO NAO SETAR UM VALOR PELO SHORTHAND#########*/
 	section {
-		padding: unset 0;
+		padding-right: 10%;
+		padding-left: 10%;
 	}
-/*	.corpo-do-site {
-		width: 100%;
-		margin: 0 auto;
-	}*/
 
-	.main {
+	.sobre {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -337,15 +324,14 @@ footer p {
 		display: none;
 	}
 	.utensilios-banner {
-		width: 15rem; /* ###### VER ESSA PARTE ###### */
+		width: 15rem;
 		margin: 0;
 	}
 	.container-beneficios{
 		flex-direction: column;
 		align-items: center;
-		/*max-width: 80%;*/
-		/*margin: 0 auto;*/
 	}
+
 	.beneficios ul {
 		box-sizing: border-box;
 		font-size: 2.5rem;
@@ -382,7 +368,7 @@ footer p {
 		margin: 1.5rem 0 0 0;
 	}
 	
-	.main {
+	.sobre {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -395,7 +381,7 @@ footer p {
 	.clear-paragrafo {
 		clear: left;
 	}
-	.main p {
+	.sobre p {
 		margin-top: 1.5rem;
 	}
 	
