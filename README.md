@@ -1,13 +1,11 @@
-![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-)
-![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-)
-![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-)
-![](https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg)
+<p align="center">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+<img src="https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg">
+</p>
 
-
-# :brazil: Projeto Barbearia Alura
+#  Projeto Barbearia Alura <sup>:brazil:</sup>
 Esse foi o meu primeiro projeto feito.
 
 O projeto original envolvia apenas CSS e HTML e foi desenvolvido com base em um curso da Alura.
@@ -19,7 +17,7 @@ Também dei um toque pessoal ao design, tentando algumas coisas novas que estava
 Refatorei grande parte do código CSS incluindo flexbox e outras propriedades que aprendi posteriormente, mas resolvi dar esse projeto por terminado para me dedicar aos próximos.
 
 
-# :us:* Alura Barber's Project
+#  Alura Barber's Project <sup>:us:*</sup>
 This was my first ever project made.
 
 The original project envolved CSS and HTML only and was developed based in a Alura's course.
