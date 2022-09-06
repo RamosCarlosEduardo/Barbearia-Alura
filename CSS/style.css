@@ -6,13 +6,11 @@ html {
 
 header {
 	background-image: url('../images/bg-white.jpg');
-	padding: 0;
 	text-align: center;
 	border-bottom: ridge 2rem darkblue;
 }
 .hamburguer-icon-abrir {
 	display: none;
-	visibility: hidden;
 }
 
 .hamburguer-menu {
@@ -286,7 +284,6 @@ footer p {
 
 	.hamburguer-icon-abrir {
 		display: block;
-		visibility: visible;
 		width: 5rem;
 		height: 5rem;
 		border: solid darkblue; 0.2rem;
