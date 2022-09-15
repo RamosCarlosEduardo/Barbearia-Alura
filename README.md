@@ -16,6 +16,13 @@ Também dei um toque pessoal ao design, tentando algumas coisas novas que estava
 
 Refatorei grande parte do código CSS incluindo flexbox e outras propriedades que aprendi posteriormente, mas resolvi dar esse projeto por terminado para me dedicar aos próximos.
 
+| 🪧 Vitrine.Dev  |     |
+| -------------- | --- |
+| ✨ Nome        | **Barbearia Alura** |
+| 🏷️ Tecnologias | HTML, CSS, Javascript e Jquery  |
+| 🚀 URL         | [**Acesse o site**](https://ramoscarloseduardo.github.io/Barbearia-Alura/) |
+| 🔥 Desafio     | Desenvolvido durante a aula |
+
 
 #  Alura Barber's <sup>:us:*</sup>
 This was my first ever project made.
@@ -27,5 +34,9 @@ Also gave a personal touch in the design, trying some new stuffs that i was lear
 
 I refactored the most of CSS code including flexbox and other properties that i've learned after the course, but decided to consider this project finished so i can dedicate for the next ones.
 
-\* Despite my main language be portuguese, i'll always try to keep a translation made by myself.
-Since i'm learning and grabbing this opportunity for practice, i'm sorry if there are some mistakes. 😁
+| 🪧 Vitrine.Dev  |     |
+| -------------- | --- |
+| ✨ Name        | **Alura Barber's** |
+| 🏷️ Technologies | HTML, CSS, Javascript and Jquery  |
+| 🚀 URL         | [**Go to the website**](https://ramoscarloseduardo.github.io/Barbearia-Alura/) |
+| 🔥 Challenge     | Developed during the classes |
