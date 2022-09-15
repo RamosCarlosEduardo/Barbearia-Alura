@@ -5,7 +5,7 @@
 <img src="https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg">
 </p>
 
-#  Projeto Barbearia Alura <sup>:brazil:</sup>
+#  Barbearia Alura <sup>:brazil:</sup>
 Esse foi o meu primeiro projeto feito.
 
 O projeto original envolvia apenas CSS e HTML e foi desenvolvido com base em um curso da Alura.
@@ -17,7 +17,7 @@ Também dei um toque pessoal ao design, tentando algumas coisas novas que estava
 Refatorei grande parte do código CSS incluindo flexbox e outras propriedades que aprendi posteriormente, mas resolvi dar esse projeto por terminado para me dedicar aos próximos.
 
 
-#  Alura Barber's Project <sup>:us:*</sup>
+#  Alura Barber's <sup>:us:*</sup>
 This was my first ever project made.
 
 The original project envolved CSS and HTML only and was developed based in a Alura's course.
