@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-<img src="https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg">
+<img src="https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg#vitrinedev">
 </p>
 
 <h1 align="center" font-size="30px">Barbearia Alura <sup>:brazil:</sup></h1>
@@ -16,12 +16,12 @@ Também dei um toque pessoal ao design, tentando algumas coisas novas que estava
 
 Refatorei grande parte do código CSS incluindo flexbox e outras propriedades que aprendi posteriormente, mas resolvi dar esse projeto por terminado para me dedicar aos próximos.
 
-| 🪧 Vitrine.Dev  |     |
+|  :placard: Vitrine.Dev  |     |
 | -------------- | --- |
-| ✨ Nome        | **Barbearia Alura** |
-| 🏷️ Tecnologias | HTML, CSS, Javascript e Jquery  |
-| 🚀 URL         | [**Acesse o site**](https://ramoscarloseduardo.github.io/Barbearia-Alura/) |
-| 🔥 Desafio     | Desenvolvido durante a aula |
+| :sparkles: Nome        | **Barbearia Alura** |
+| :label: Tecnologias | HTML, CSS, Javascript e Jquery  |
+| :rocket: URL         | [**Acesse o site**](https://ramoscarloseduardo.github.io/Barbearia-Alura/) |
+| :fire: Desafio     | Desenvolvido durante a aula |
 
 
 <h1 align="center" font-size="30px">Alura Barber's <sup>:us:</sup></h1>
