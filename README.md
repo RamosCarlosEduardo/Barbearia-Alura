@@ -2,13 +2,22 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-!(Banner Barbearia Alura)[https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg#vitrinedev]
 </div>
+
+<div align="center">
+  
+![Banner Barbearia Alura](https://github.com/RamosCarlosEduardo/Barbearia-Alura/blob/main/images/banner.jpg?raw=true#vitrinedev)
+
+</div>
+
+
 
 <h1 align="center" font-size="30px">Barbearia Alura <sup>:brazil:</sup></h1>
 Esse foi o meu primeiro projeto feito.
 
 O projeto original envolvia apenas CSS e HTML e foi desenvolvido com base em um curso da Alura.
+
+
 
 Eu o modifiquei usando um pouco de JS para fazer um menu hamburguer e inserir JQuery Masks nos inputs.
 E algumas outras pequenas coisas como colocar alertas nas partes que não funcionam (enviar o formulário e página indivudal dos produtos) e um contador de caracteres no textarea.
