@@ -6,7 +6,7 @@
 
 <div align="center">
   
-![Banner Barbearia Alura](https://github.com/RamosCarlosEduardo/Barbearia-Alura/blob/main/images/banner.jpg?raw=true#vitrinedev)
+![Banner Barbearia Alura](https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg#vitrinedev)
 
 </div>
 
