@@ -1,9 +1,9 @@
-<p align="center">
+<div align="center">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-<img src="https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg#vitrinedev">
-</p>
+!(Banner Barbearia Alura)[https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner.jpg#vitrinedev]
+</div>
 
 <h1 align="center" font-size="30px">Barbearia Alura <sup>:brazil:</sup></h1>
 Esse foi o meu primeiro projeto feito.
