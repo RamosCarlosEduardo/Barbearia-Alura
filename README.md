@@ -20,7 +20,7 @@ O projeto original envolvia apenas CSS e HTML e foi desenvolvido com base em um 
 
 
 Eu o modifiquei usando um pouco de JS para fazer um menu hamburguer e inserir JQuery Masks nos inputs.
-E algumas outras pequenas coisas como colocar alertas nas partes que não funcionam (enviar o formulário e página indivudal dos produtos) e um contador de caracteres no textarea.
+E algumas outras pequenas coisas como colocar alertas nas partes que não funcionam (enviar o formulário e página individual dos produtos) e um contador de caracteres no textarea.
 Também dei um toque pessoal ao design, tentando algumas coisas novas que estava aprendendo fora do curso, como o efeito paralaxe no banner principal, alguns gradientes lineares e radiais, etc.
 
 Refatorei grande parte do código CSS incluindo flexbox e outras propriedades que aprendi posteriormente, mas resolvi dar esse projeto por terminado para me dedicar aos próximos.
