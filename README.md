@@ -33,7 +33,7 @@ Refatorei grande parte do código CSS incluindo flexbox e outras propriedades qu
 | :fire: Desafio     | Desenvolvido durante a aula |
 
 
-<h1 align="center" font-size="30px">Alura Barber's <sup>:us:</sup></h1>
+<h1 align="center" font-size="30px">Alura Barber's Shop <sup>:us:</sup></h1>
 This was my first ever project made.
 
 The original project envolved CSS and HTML only and was developed based in a Alura's course.
@@ -45,7 +45,7 @@ I refactored the most of CSS code including flexbox and other properties that i'
 
 | 🪧 Vitrine.Dev  |     |
 | -------------- | --- |
-| ✨ Name        | **Alura Barber's** |
+| ✨ Name        | **Alura Barber's Shop** |
 | 🏷️ Technologies | HTML, CSS, Javascript and Jquery  |
 | 🚀 URL         | [**Go to the website**](https://ramoscarloseduardo.github.io/Barbearia-Alura/) |
 | 🔥 Challenge     | Developed during the classes |
