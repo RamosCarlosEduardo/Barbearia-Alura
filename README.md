@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 </div>
 
-![Banner Barbearia Alura](https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner1200x500.png#vitrinedev)
+![](https://raw.githubusercontent.com/RamosCarlosEduardo/Barbearia-Alura/main/images/banner1200x500.png#vitrinedev)
 
 <h1 align="center" font-size="30px">Barbearia Alura <sup>:brazil:</sup></h1>
 Esse foi o meu primeiro projeto feito.
